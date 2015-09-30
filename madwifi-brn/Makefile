@@ -16,9 +16,9 @@ PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
-PKG_SOURCE_URL:=git@gitsar:madwifi-brn
+PKG_SOURCE_URL:=git@github.com:HumboldtWirelessLab/madwifi-brn.git
 PKG_SOURCE_PROTO:=git
-PKG_REV:=8548589055930c390679943b605efef8714209d0
+PKG_REV:=539cbd579a132773dad58cbeee0f2ef8dc226cd0
 PKG_SOURCE_VERSION:=$(PKG_REV)
 
 include $(INCLUDE_DIR)/package.mk
