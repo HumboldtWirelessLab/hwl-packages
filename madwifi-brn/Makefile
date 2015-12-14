@@ -16,7 +16,8 @@ PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
-PKG_SOURCE_URL:=git@github.com:HumboldtWirelessLab/madwifi-brn.git
+PKG_SOURCE_URL:=https://github.com:HumboldtWirelessLab/madwifi-brn.git
+#PKG_SOURCE_URL:=git@github.com:HumboldtWirelessLab/madwifi-brn.git
 PKG_SOURCE_PROTO:=git
 PKG_REV:=539cbd579a132773dad58cbeee0f2ef8dc226cd0
 PKG_SOURCE_VERSION:=$(PKG_REV)
